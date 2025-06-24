@@ -5,21 +5,21 @@
 
 // ==================== KONFIGURATION ====================
 // WLAN Einstellungen
-const char* WIFI_SSID = "villakunterbunt";
-const char* WIFI_PASSWORD = "2mal3=KleinerOnkel";
+const char* WIFI_SSID = "Wlan";
+const char* WIFI_PASSWORD = "PW";
 
 // MQTT Einstellungen
-const char* MQTT_SERVER = "test.mosquitto.org";
+const char* MQTT_SERVER = "MQTT SERVER";
 const int MQTT_PORT = 1883;
-const char* MQTT_CLIENT_ID = "FTA1_DMX_Controller";
+const char* MQTT_CLIENT_ID = "DMX_Controller";
 
 // MQTT Topics (für 5 DMX-Kanäle)
 const char* MQTT_TOPICS[5] = {
-  "dmx/channel1",
-  "dmx/channel2",
-  "dmx/channel3",
-  "dmx/channel4",
-  "dmx/channel5"
+  "USER_dmx/channel1",
+  "USER_dmx/channel2",
+  "USER_dmx/channel3",
+  "USER_dmx/channel4",
+  "USER_dmx/channel5"
 };
 
 // DMX Einstellungen
