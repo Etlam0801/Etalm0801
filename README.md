@@ -17,8 +17,8 @@ Ein ESP32-basierter DMX-Controller, der über MQTT gesteuert werden kann. Dieses
 
 ## Pinbelegung
 
-- DMX TX: GPIO2
-- DMX EN: GPIO4
+- DMX TX: GPI17
+- DMX EN: am MAX485 Gebrückt
 
 ## Software-Abhängigkeiten
 
